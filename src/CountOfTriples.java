@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class factorial {
+public class CountOfTriples {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

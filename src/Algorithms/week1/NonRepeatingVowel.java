@@ -1,8 +1,10 @@
+package Algorithms.week1;
+
 public class NonRepeatingVowel {
 
     public static void main(String[] args) {
 
-        int indexOfFirstNonRepeatingVowel = NonRepeatingVowel("aaaaafffffejjjjjifffffo");
+        int indexOfFirstNonRepeatingVowel = NonRepeatingVowel("anna");
 
         System.out.println(indexOfFirstNonRepeatingVowel);
 
@@ -22,11 +24,6 @@ public class NonRepeatingVowel {
             }
         }
 
-        if(onlyVowels.length() == 0){
-
-            return -1;
-
-        }
 
         String nonRepeatingVowel = "";
         
@@ -49,6 +46,12 @@ public class NonRepeatingVowel {
                 nonRepeatingVowel += "" + ch;
 
                 break;
+
+            }
+
+            if(nonRepeatingVowel.length() == 0){
+
+                return -1;
 
             }
 

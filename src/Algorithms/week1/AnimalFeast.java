@@ -1,3 +1,5 @@
+package Algorithms.week1;
+
 public class AnimalFeast {
 
     public static void main(String[] args) {
